@@ -4,23 +4,37 @@
   "version": "1.0.0",
   "author": {
     "name": "Viktar Liaskovich",
-    "email": "devunion@extensiondev.com",
-    "url": "extensiondev.com"
+    "email": "contact-us@extensiondev.com",
+    "url": "http://extensiondev.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devunion/gulp-js-obfuscator"
   },
   "contributors": [
   ],
   "keywords": [
+    "gulp",
+    "gulp obfuscator",
+    "gulp plugin",
     "gulpplugin",
+    "JavaScript",
+    "Java Script",
     "minify",
     "optimize",
     "optimise",
-    "compress"
+    "optimise",
+    "compress",
+    "obfuscator",
+    "obfuscation"
   ],
   "license": "MIT",
   "files": [
     "index.js"
   ],
-  "scripts": {
+  "homepage": "https://github.com/devunion/gulp-js-obfuscator",
+  "bugs": {
+    "url": "https://github.com/devunion/gulp-js-obfuscator/issues"
   },
   "dependencies": {
     "js-obfuscator": "^0.1.0",
