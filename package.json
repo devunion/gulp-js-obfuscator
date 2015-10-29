@@ -1,0 +1,31 @@
+{
+  "name": "gulp-js-obfuscator",
+  "description": "Gulp wrapper for js-obfuscator. Obfuscates JS with Gulp",
+  "version": "1.0.0",
+  "author": {
+    "name": "Viktar Liaskovich",
+    "email": "devunion@extensiondev.com",
+    "url": "extensiondev.com"
+  },
+  "contributors": [
+  ],
+  "keywords": [
+    "gulpplugin",
+    "minify",
+    "optimize",
+    "optimise",
+    "compress"
+  ],
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+  },
+  "dependencies": {
+    "js-obfuscator": "^0.1.0",
+    "gulp-util": "^3.0.5",
+    "through2": "^2.0.0",
+    "multimatch": "^2.0.0"
+  }
+}
