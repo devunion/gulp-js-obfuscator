@@ -24,8 +24,11 @@ var path = {
     }
 };
 
+var obfuscatorOptions = {};
+var excludes = ["**/jquery-*.js"];
+
 gulp.src(path.src.js)
-    .pipe(js_obfuscator({}, ["**/jquery-*.js"]))
+    .pipe(js_obfuscator(obfuscatorOptions, excludes))
     .pipe(gulp.dest(path.build.js));
 ```
 
