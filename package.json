@@ -37,7 +37,7 @@
     "url": "https://github.com/devunion/gulp-js-obfuscator/issues"
   },
   "dependencies": {
-    "js-obfuscator": "^0.1.0",
+    "js-obfuscator": "^0.1.2",
     "gulp-util": "^3.0.5",
     "through2": "^2.0.0",
     "multimatch": "^2.0.0"
